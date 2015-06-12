@@ -1,28 +1,11 @@
 #include <iostream>
 #include<string>
 #include"Vector.h"
+#include "Student.h"
 using namespace std;
 
-class Student
-
-{
-
-public:
-
-	Student() : m_name("Georgi"), m_age(19) {}
-
-	Student(string name, int age) : m_name(name), m_age(age) {}
-
-private:
-
-	string m_name;
-
-	int m_age;
-
-};
 int main()
 {
-
 	Vector<int> v;
 	v.push_back(11);
 	v.push_back(19);
